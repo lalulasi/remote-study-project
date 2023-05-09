@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cfbe3ada-6fb6-4723-af81-f03b4aed51d4" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Java\maven\repo" />
+        <option name="mavenHome" value="C:/Java/maven" />
+        <option name="userSettingsFile" value="C:\Java\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MBWhluEdDB7w6gIOwfv2ErKTTe" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM中篇：字节码与类的加载篇/资料/资料/代码/代码/JVMDemo1" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.38175273" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunManager" selected="Application.CountdownLatchThread">
+    <configuration name="CountdownLatchThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luojun.concurrency9.CountdownLatchThread" />
+      <module name="java_concurrency.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luojun.concurrency9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclicBarrierMyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luojun.concurrency9.CyclicBarrierMyThread" />
+      <module name="java_concurrency.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luojun.concurrency9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luojun.concurrency5.MyTest2" />
+      <module name="java_concurrency.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luojun.concurrency5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luojun.concurrency7.MyTest3" />
+      <module name="java_concurrency.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luojun.concurrency7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luojun.concurrency9.ThreadLocalTest" />
+      <module name="java_concurrency.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luojun.concurrency9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MyTest3 (1)" />
+      <item itemvalue="Application.ThreadLocalTest" />
+      <item itemvalue="Application.MyTest2" />
+      <item itemvalue="Application.CyclicBarrierMyThread" />
+      <item itemvalue="Application.CountdownLatchThread" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CountdownLatchThread" />
+        <item itemvalue="Application.CyclicBarrierMyThread" />
+        <item itemvalue="Application.MyTest2" />
+        <item itemvalue="Application.ThreadLocalTest" />
+        <item itemvalue="Application.MyTest3 (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfbe3ada-6fb6-4723-af81-f03b4aed51d4" name="Changes" comment="" />
+      <created>1677241578788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677241578788</updated>
+      <workItem from="1677241580998" duration="4804000" />
+      <workItem from="1677378217202" duration="1044000" />
+      <workItem from="1677392937896" duration="595000" />
+      <workItem from="1677499269430" duration="8000" />
+      <workItem from="1677564997481" duration="5207000" />
+      <workItem from="1677571542798" duration="1372000" />
+      <workItem from="1677573174604" duration="1263000" />
+      <workItem from="1677583791587" duration="1376000" />
+      <workItem from="1677647743977" duration="1211000" />
+      <workItem from="1677669427303" duration="7000" />
+      <workItem from="1677740038702" duration="1194000" />
+      <workItem from="1677754909712" duration="598000" />
+      <workItem from="1677824990480" duration="5179000" />
+      <workItem from="1677844204719" duration="201000" />
+      <workItem from="1678080383882" duration="1287000" />
+      <workItem from="1678082822652" duration="759000" />
+      <workItem from="1678085570333" duration="56000" />
+      <workItem from="1678092518310" duration="1239000" />
+      <workItem from="1678161433634" duration="3000" />
+      <workItem from="1678164276572" duration="2665000" />
+      <workItem from="1678169020150" duration="2057000" />
+      <workItem from="1678171804149" duration="594000" />
+      <workItem from="1678172445629" duration="941000" />
+      <workItem from="1678175324767" duration="1740000" />
+      <workItem from="1678237780113" duration="6000" />
+      <workItem from="1678249202290" duration="1241000" />
+      <workItem from="1678254134088" duration="8871000" />
+      <workItem from="1678277690891" duration="1478000" />
+      <workItem from="1678330810559" duration="9640000" />
+      <workItem from="1678424798173" duration="8097000" />
+      <workItem from="1678447876446" duration="2000" />
+      <workItem from="1678510921007" duration="5432000" />
+      <workItem from="1678624994023" duration="1604000" />
+      <workItem from="1678679825207" duration="10450000" />
+      <workItem from="1678771106362" duration="8186000" />
+      <workItem from="1678794592374" duration="7000" />
+      <workItem from="1678848247766" duration="1481000" />
+      <workItem from="1678850644450" duration="19000" />
+      <workItem from="1678881881447" duration="346000" />
+      <workItem from="1678928421879" duration="6000" />
+      <workItem from="1678965709083" duration="7000" />
+      <workItem from="1679114466214" duration="74000" />
+      <workItem from="1679300398665" duration="4264000" />
+      <workItem from="1679310652376" duration="865000" />
+      <workItem from="1679314706130" duration="2000" />
+      <workItem from="1679384221634" duration="4957000" />
+      <workItem from="1679446735988" duration="7000" />
+      <workItem from="1679470520664" duration="6512000" />
+      <workItem from="1679484822195" duration="2000" />
+      <workItem from="1679635344833" duration="3254000" />
+      <workItem from="1679639374408" duration="3853000" />
+      <workItem from="1679891404268" duration="6598000" />
+      <workItem from="1679968541745" duration="4903000" />
+      <workItem from="1679979264438" duration="28000" />
+      <workItem from="1680052392220" duration="5902000" />
+      <workItem from="1680141447007" duration="1371000" />
+      <workItem from="1680145828401" duration="5000" />
+      <workItem from="1680152480811" duration="1837000" />
+      <workItem from="1680159499952" duration="912000" />
+      <workItem from="1680162228822" duration="160000" />
+      <workItem from="1680229192434" duration="3368000" />
+      <workItem from="1680242396597" duration="7000" />
+      <workItem from="1680484588643" duration="1513000" />
+      <workItem from="1680491590593" duration="456000" />
+      <workItem from="1680502571952" duration="8000" />
+      <workItem from="1680513006980" duration="4000" />
+      <workItem from="1680576201872" duration="4880000" />
+      <workItem from="1680746813582" duration="5252000" />
+      <workItem from="1681803496465" duration="2286000" />
+      <workItem from="1681890151421" duration="4014000" />
+      <workItem from="1681954944611" duration="554000" />
+      <workItem from="1681955570703" duration="599000" />
+      <workItem from="1681969593201" duration="2661000" />
+      <workItem from="1681973109930" duration="1163000" />
+      <workItem from="1681977747384" duration="19000" />
+      <workItem from="1682305679898" duration="18000" />
+      <workItem from="1682312990584" duration="14000" />
+      <workItem from="1682313038455" duration="208000" />
+      <workItem from="1682313304113" duration="363000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

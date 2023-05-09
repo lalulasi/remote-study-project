@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /rest
+
+logging:
+  level:
+    root: info
+
+user:
+  userId: 123
+  name: wang
+
+country: Canada

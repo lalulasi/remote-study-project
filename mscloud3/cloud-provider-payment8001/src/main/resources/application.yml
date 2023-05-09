@@ -1,0 +1,18 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /rest/payment
+
+spring:
+  application:
+    name: cloud-payment-service
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: org.gjt.mm.mysql.Driver
+    url: jdbc:mysql://localhost:3306/lulupaas?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: wcn88ddhz
+
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+  type-aliases-package: com.jun.springcloud.model

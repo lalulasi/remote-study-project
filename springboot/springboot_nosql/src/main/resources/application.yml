@@ -1,0 +1,15 @@
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: wcn88ddhz
+    # redis的连接池，默认使用lettuce
+    client-type: jedis
+
+  data:
+    mongodb:
+      uri: mongodb://lulu:wcn88ddhz@localhost:27017/lulupaas
+
+  elasticsearch:
+    rest:
+      uris: http://localhost:9200

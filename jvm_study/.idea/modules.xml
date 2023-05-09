@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AnnotationAndReflection/AnnotationAndReflection.iml" filepath="$PROJECT_DIR$/AnnotationAndReflection/AnnotationAndReflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter01/chapter01.iml" filepath="$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter01/chapter01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter02/chapter02.iml" filepath="$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter02/chapter02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter03/chapter03.iml" filepath="$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter03/chapter03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter04/chapter04.iml" filepath="$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter04/chapter04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter05/chapter05.iml" filepath="$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter05/chapter05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter06/chapter06.iml" filepath="$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter06/chapter06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter07/chapter07.iml" filepath="$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter07/chapter07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter08/chapter08.iml" filepath="$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter08/chapter08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter09/chapter09.iml" filepath="$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter09/chapter09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter10/chapter10.iml" filepath="$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter10/chapter10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter11/chapter11.iml" filepath="$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter11/chapter11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter12/chapter12.iml" filepath="$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter12/chapter12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter13/chapter13.iml" filepath="$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter13/chapter13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter14/chapter14.iml" filepath="$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter14/chapter14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter15/chapter15.iml" filepath="$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter15/chapter15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter16/chapter16.iml" filepath="$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter16/chapter16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter17/chapter17.iml" filepath="$PROJECT_DIR$/../../S硅谷_JVM从入门到精通/JVM上篇：内存与垃圾回收篇/资料/资料/代码/代码/JVMDemo/JVMDemo/chapter17/chapter17.iml" />
+    </modules>
+  </component>
+</project>

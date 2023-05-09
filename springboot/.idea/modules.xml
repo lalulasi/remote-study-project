@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/china_mobile/china_mobile.iml" filepath="$PROJECT_DIR$/china_mobile/china_mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_02_8/demo_02_8.iml" filepath="$PROJECT_DIR$/demo_02_8/demo_02_8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple_connection_api/simple_connection_api.iml" filepath="$PROJECT_DIR$/simple_connection_api/simple_connection_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot.iml" filepath="$PROJECT_DIR$/springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_mq/springboot_mq.iml" filepath="$PROJECT_DIR$/springboot_mq/springboot_mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_mybatis/springboot_mybatis.iml" filepath="$PROJECT_DIR$/springboot_mybatis/springboot_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_nosql/springboot_nosql.iml" filepath="$PROJECT_DIR$/springboot_nosql/springboot_nosql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user_client/user_client.iml" filepath="$PROJECT_DIR$/user_client/user_client.iml" />
+    </modules>
+  </component>
+</project>

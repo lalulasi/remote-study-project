@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e9f322a-1bb6-4a73-83fd-3b94271229fc" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\work\Java\maven\repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../work/Java/maven" />
+        <option name="userSettingsFile" value="D:\work\Java\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LREFGJPFannmaYTPvjxtAZg7ZT" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/library/src/main/resources/static" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.38175273" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\Java\project\springboot\library\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lalulasi.springboot_nosq.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainClient">
+    <configuration name="ConnDb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lalulasi.library.resource.ConnDb" />
+      <module name="library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lalulasi.library.resource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jun.luo.client.MainClient" />
+      <module name="user_client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jun.luo.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookDaoTestCase.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lalulasi.library.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lalulasi.library.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.lalulasi.library.dao.BookDaoTestCase" />
+      <option name="METHOD_NAME" value="getAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookDaoTestCase.testBy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lalulasi.library.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lalulasi.library.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.lalulasi.library.dao.BookDaoTestCase" />
+      <option name="METHOD_NAME" value="testBy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookDaoTestCase.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lalulasi.library.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lalulasi.library.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.lalulasi.library.dao.BookDaoTestCase" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo028Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo_02_8" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Demo028Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="library" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lalulasi.library.LibraryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootMqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_mq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.junluo.springboot_mq.SpringbootMqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.SpringbootMybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootNosqlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_nosql" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lalulasi.springboot_nosql.SpringbootNosqlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainClient" />
+        <item itemvalue="JUnit.BookDaoTestCase.testBy" />
+        <item itemvalue="JUnit.BookDaoTestCase.getAll" />
+        <item itemvalue="JUnit.BookDaoTestCase.testSave" />
+        <item itemvalue="Application.ConnDb" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e9f322a-1bb6-4a73-83fd-3b94271229fc" name="Changes" comment="" />
+      <created>1675825389782</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675825389782</updated>
+      <workItem from="1675825390881" duration="426000" />
+      <workItem from="1675825886509" duration="285000" />
+      <workItem from="1675826186621" duration="1825000" />
+      <workItem from="1675834885086" duration="572000" />
+      <workItem from="1675836298624" duration="53000" />
+      <workItem from="1675910312282" duration="935000" />
+      <workItem from="1675911332185" duration="3348000" />
+      <workItem from="1675990608698" duration="5516000" />
+      <workItem from="1676008130908" duration="2369000" />
+      <workItem from="1676265142378" duration="1072000" />
+      <workItem from="1676289491926" duration="407000" />
+      <workItem from="1676289943275" duration="1695000" />
+      <workItem from="1676293452272" duration="3950000" />
+      <workItem from="1676337781898" duration="11000" />
+      <workItem from="1676439061224" duration="4441000" />
+      <workItem from="1676634899379" duration="3358000" />
+      <workItem from="1676856481460" duration="597000" />
+      <workItem from="1677222775410" duration="1008000" />
+      <workItem from="1677241507041" duration="71000" />
+      <workItem from="1677499283694" duration="6500000" />
+      <workItem from="1677506297139" duration="130000" />
+      <workItem from="1677506442127" duration="818000" />
+      <workItem from="1677551607747" duration="6072000" />
+      <workItem from="1677564991656" duration="3000" />
+      <workItem from="1677573152754" duration="19000" />
+      <workItem from="1677587226962" duration="1209000" />
+      <workItem from="1677588457341" duration="4540000" />
+      <workItem from="1677593202714" duration="38000" />
+      <workItem from="1677638719499" duration="1399000" />
+      <workItem from="1677669438437" duration="10921000" />
+      <workItem from="1677740000131" duration="30000" />
+      <workItem from="1677757020518" duration="1944000" />
+      <workItem from="1677760395197" duration="1451000" />
+      <workItem from="1677814015980" duration="242000" />
+      <workItem from="1677824982334" duration="4000" />
+      <workItem from="1677844416023" duration="2135000" />
+      <workItem from="1677932399166" duration="19000" />
+      <workItem from="1677932590860" duration="2347000" />
+      <workItem from="1677988517832" duration="1953000" />
+      <workItem from="1678071048709" duration="65000" />
+      <workItem from="1678071554245" duration="308000" />
+      <workItem from="1678072228972" duration="271000" />
+      <workItem from="1678072570958" duration="75000" />
+      <workItem from="1678072660975" duration="6864000" />
+      <workItem from="1678447887722" duration="3480000" />
+      <workItem from="1678510913526" duration="5000" />
+      <workItem from="1678794614230" duration="1199000" />
+      <workItem from="1678847579251" duration="596000" />
+      <workItem from="1678965730141" duration="6503000" />
+      <workItem from="1679014838602" duration="1498000" />
+      <workItem from="1679022513774" duration="348000" />
+      <workItem from="1679041998448" duration="2865000" />
+      <workItem from="1679051532463" duration="7063000" />
+      <workItem from="1679114435377" duration="26000" />
+      <workItem from="1679314727067" duration="1194000" />
+      <workItem from="1679384207409" duration="10000" />
+      <workItem from="1679446753459" duration="8932000" />
+      <workItem from="1679467510898" duration="692000" />
+      <workItem from="1679470504354" duration="5000" />
+      <workItem from="1679484866434" duration="741000" />
+      <workItem from="1679563095670" duration="19000" />
+      <workItem from="1679915441821" duration="593000" />
+      <workItem from="1679968535513" duration="3000" />
+      <workItem from="1680003980606" duration="593000" />
+      <workItem from="1680052351237" duration="32000" />
+      <workItem from="1680145824148" duration="3000" />
+      <workItem from="1681955515435" duration="47000" />
+      <workItem from="1681958396480" duration="2834000" />
+      <workItem from="1681969413840" duration="5000" />
+      <workItem from="1682313017820" duration="19000" />
+      <workItem from="1682392671081" duration="10000" />
+      <workItem from="1683512423243" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

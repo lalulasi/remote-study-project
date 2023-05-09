@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/demo_02_8/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/library/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_nosql/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_mq/pom.xml" />
+        <option value="$PROJECT_DIR$/china_mobile/pom.xml" />
+        <option value="$PROJECT_DIR$/simple_connection_api/pom.xml" />
+        <option value="$PROJECT_DIR$/user_client/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    druid:  # 数据库连接池
+      driver-class-name: com.ibm.db2.jcc.DB2Driver
+      url: jdbc:db2://127.0.0.1:50230/libdb
+      username: inst23
+      password: wcn88ddhz
+  application:
+    name: springboot-cxf
+  devtools:
+    restart:
+      exclude: application.yml
+
+server:
+  port: 8080
+  servlet:
+    context-path: /library
+
+# 配置mbp的表明前缀
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: LIBRARY.tbl_
+      id-type: auto # 利用数据库的id自增策略
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # 打印日志到控制台
