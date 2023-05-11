@@ -1,0 +1,11 @@
+server:
+  port: 81
+  servlet:
+    context-path: /rest/consumer/payment
+
+spring:
+  application:
+    name: cloud-order-service
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181

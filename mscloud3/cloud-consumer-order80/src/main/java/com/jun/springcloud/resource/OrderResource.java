@@ -19,7 +19,7 @@ public class OrderResource {
     @Autowired
     private RestTemplate restTemplate;
 
-    public static final String PAYMENT_URL = "http://localhost:8001/rest/payment/";
+    public static final String PAYMENT_URL = "http://CLOUD-PAYMENT-SERVICE/rest/payment/";
 
     @PostMapping("/create")
     public CommonResult<Payment> create(@RequestBody Payment payment) {
