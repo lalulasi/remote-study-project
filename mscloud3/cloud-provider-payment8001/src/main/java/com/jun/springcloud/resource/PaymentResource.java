@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @program: mscloud3
@@ -31,59 +32,71 @@ public class PaymentResource {
 
     @Value("${server.port}")
     private String serverPort;
-    
-    /** 
-    * @Description: create payment
-    * @Param: [payment] 
-    * @return: com.jun.springcloud.model.CommonResult<com.jun.springcloud.model.Payment> 
-    * @Author: jun.luo 
-    * @Date: 2023/5/8 
-    */
+
+    /**
+     * @Description: create payment
+     * @Param: [payment]
+     * @return: com.jun.springcloud.model.CommonResult<com.jun.springcloud.model.Payment>
+     * @Author: jun.luo
+     * @Date: 2023/5/8
+     */
     @PostMapping(value = "/create")
-    public CommonResult<Payment> create(@RequestBody Payment payment){
+    public CommonResult<Payment> create(@RequestBody Payment payment) {
         log.info("PaymentResource.create start payment={}", payment);
         int result = paymentService.create(payment);
         log.info("PaymentResource.create result payment={}", result);
-        if (result > 0){  //成功
-            return new CommonResult(200,"insert successfully serverPort: " + serverPort, result);
-        }else {
-            return new CommonResult<Payment>(444,"insert fail", null);
+        if (result > 0) {  //成功
+            return new CommonResult(200, "insert successfully serverPort: " + serverPort, result);
+        } else {
+            return new CommonResult<Payment>(444, "insert fail", null);
         }
     }
-    
-    /** 
-    * @Description: find payment by id
-    * @Param: [id] 
-    * @return: com.jun.springcloud.model.CommonResult<com.jun.springcloud.model.Payment> 
-    * @Author: jun.luo 
-    * @Date: 2023/5/8 
-    */
+
+    /**
+     * @Description: find payment by id
+     * @Param: [id]
+     * @return: com.jun.springcloud.model.CommonResult<com.jun.springcloud.model.Payment>
+     * @Author: jun.luo
+     * @Date: 2023/5/8
+     */
     @GetMapping(value = "/get/{id}")
-    public CommonResult<Payment> getPaymentById(@PathVariable("id") Long id){
+    public CommonResult<Payment> getPaymentById(@PathVariable("id") Long id) {
         Payment payment = paymentService.findPaymentById(id);
         log.info("PaymentResource.getPaymentById={}", payment);
-        if (payment != null){  //说明有数据，能查询成功
-            return new CommonResult<Payment>(200,"success serverPort: " + serverPort, payment);
-        }else {
+        if (payment != null) {  //说明有数据，能查询成功
+            return new CommonResult<Payment>(200, "success serverPort: " + serverPort, payment);
+        } else {
             return new CommonResult<Payment>(444, "can not find payment by id=" + id, null);
         }
     }
 
     @GetMapping(value = "/payment/discovery")
-    public Object discovery(){
+    public Object discovery() {
         List<String> services = discoveryClient.getServices();
         for (String element : services) {
-            log.info("***** element:"+element);
+            log.info("***** element:" + element);
         }
         List<ServiceInstance> instances = discoveryClient.getInstances("CLOUD-PAYMENT-SERVICE");
         for (ServiceInstance instance : instances) {
-            log.info(instance.getServiceId()+"\t"+instance.getHost()+"\t"+instance.getPort()+"\t"+instance.getUri());
+            log.info(instance.getServiceId() + "\t" + instance.getHost() + "\t" + instance.getPort() + "\t" + instance.getUri());
         }
         return this.discoveryClient;
     }
 
     @GetMapping(value = "/lb")
-    public String getPaymentLB(){
+    public String getPaymentLB() {
+        return serverPort;
+    }
+
+    @GetMapping(value = "/feign/timeout")
+    public String paymentFeignTimeout() {
+        try {
+            log.info("stop time 3s start");
+            TimeUnit.SECONDS.sleep(3);
+            log.info("stop time 3s end");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return serverPort;
     }
 }
