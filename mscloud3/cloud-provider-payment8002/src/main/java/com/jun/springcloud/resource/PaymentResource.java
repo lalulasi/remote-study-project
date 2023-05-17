@@ -60,4 +60,9 @@ public class PaymentResource {
             return new CommonResult<Payment>(444, "can not find payment by id=" + id, null);
         }
     }
+
+    @GetMapping(value = "/lb")
+    public String getPaymentLB(){
+        return serverPort;
+    }
 }

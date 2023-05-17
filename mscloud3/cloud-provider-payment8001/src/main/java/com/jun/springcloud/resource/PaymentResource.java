@@ -81,4 +81,9 @@ public class PaymentResource {
         }
         return this.discoveryClient;
     }
+
+    @GetMapping(value = "/lb")
+    public String getPaymentLB(){
+        return serverPort;
+    }
 }
