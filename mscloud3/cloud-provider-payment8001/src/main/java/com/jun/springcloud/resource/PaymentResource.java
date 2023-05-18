@@ -11,7 +11,9 @@ import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -84,7 +86,12 @@ public class PaymentResource {
     }
 
     @GetMapping(value = "/lb")
-    public String getPaymentLB() {
+    public String getPaymentLB(HttpServletRequest request) {
+        System.out.println(request.getHeader("X-Request-Id"));
+        Map<String, String[]> parameterMap = request.getParameterMap();
+        for(Map.Entry<String, String[]> entry : parameterMap.entrySet()){
+            System.out.println("key: " + entry.getKey() + ", value: " + entry.getValue()[0]);
+        }
         return serverPort;
     }
 

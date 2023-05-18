@@ -8,6 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
+import java.util.Map;
+
 /**
  * @program: mscloud3
  * @description:
@@ -62,7 +65,12 @@ public class PaymentResource {
     }
 
     @GetMapping(value = "/lb")
-    public String getPaymentLB(){
+    public String getPaymentLB(HttpServletRequest request){
+        System.out.println(request.getHeader("X-Request-Id"));
+        Map<String, String[]> parameterMap = request.getParameterMap();
+        for(Map.Entry<String, String[]> entry : parameterMap.entrySet()){
+            System.out.println("key: " + entry.getKey() + ", value: " + entry.getValue()[0]);
+        }
         return serverPort;
     }
 }
