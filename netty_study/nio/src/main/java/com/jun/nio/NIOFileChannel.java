@@ -1,7 +1,5 @@
 package com.jun.nio;
 
-import com.jun.springcloud.BasicBuffer;
-
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
