@@ -7,8 +7,20 @@ package com.jun.springframwork.test.bean;
  * @create: 2023-06-12 16:36
  **/
 public class UserService {
+    private String uId;
 
-    public void queryUserInfo(){
-        System.out.println("查询用户信息");
+    //private String name;
+
+    private UserDao userDao;
+
+
+//    public UserService(String name){
+//        this.name = name;
+//    }
+
+    public void queryUserInfo() {
+        System.out.println("查询用户信息：" + userDao.queryUserName(uId));
     }
+
+
 }
