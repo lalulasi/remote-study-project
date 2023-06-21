@@ -26,7 +26,6 @@ public class PropertyValues {
     // 获取属性
     public PropertyValue getPropertyValue(String propertyName){
         for (PropertyValue pv : this.propertyValueList) {
-            System.out.println(pv.getName());
             if(pv.getName().equals(propertyName)){
                 return pv;
             }

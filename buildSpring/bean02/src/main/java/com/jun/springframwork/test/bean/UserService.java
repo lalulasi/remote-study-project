@@ -23,4 +23,7 @@ public class UserService {
     }
 
 
+    public String getUId(){
+        return uId;
+    }
 }
