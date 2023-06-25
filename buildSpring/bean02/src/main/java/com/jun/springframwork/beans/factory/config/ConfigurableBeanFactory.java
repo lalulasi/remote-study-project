@@ -8,6 +8,10 @@ import com.jun.springframwork.beans.factory.HierarchicalBeanFactory;
  * @author: jun.luo
  * @create: 2023-06-20 16:29
  **/
-public interface ConfigurableBeanFactory extends HierarchicalBeanFactory {
+public interface ConfigurableBeanFactory  extends HierarchicalBeanFactory, SingletonBeanRegistry {
+    String SCOPE_SINGLETON = "singleton";
 
+    String SCOPE_PROTOTYPE = "prototype";
+
+    void addBeanPostProcessor(BeanPostProcessor beanPostProcessor);
 }

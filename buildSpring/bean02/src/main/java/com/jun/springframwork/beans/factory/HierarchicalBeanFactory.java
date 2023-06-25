@@ -7,4 +7,5 @@ package com.jun.springframwork.beans.factory;
  * @create: 2023-06-20 16:22
  **/
 public interface HierarchicalBeanFactory extends BeanFactory{
+
 }

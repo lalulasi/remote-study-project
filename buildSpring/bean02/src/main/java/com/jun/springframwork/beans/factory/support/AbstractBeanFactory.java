@@ -3,6 +3,11 @@ package com.jun.springframwork.beans.factory.support;
 import com.jun.springframwork.beans.BeansException;
 import com.jun.springframwork.beans.factory.BeanFactory;
 import com.jun.springframwork.beans.factory.config.BeanDefinition;
+import com.jun.springframwork.beans.factory.config.BeanPostProcessor;
+import com.jun.springframwork.beans.factory.config.ConfigurableBeanFactory;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @program: buildSpring
@@ -10,20 +15,52 @@ import com.jun.springframwork.beans.factory.config.BeanDefinition;
  * @author: jun.luo
  * @create: 2023-06-12 16:13
  **/
-public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry implements BeanFactory {
+public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry implements ConfigurableBeanFactory {
+
+    /** BeanPostProcessors to apply in createBean */
+    private final List<BeanPostProcessor> beanPostProcessors = new ArrayList<>();
 
     @Override
-    public Object getBean(String beanName, Object... args) throws BeansException {
-        Object bean = getSingleton(beanName);
-        if(bean != null){
-            return bean;
-        }
-        BeanDefinition beanDefinition = getBeanDefinition(beanName);
-        return createBean(beanName, beanDefinition, args);
+    public Object getBean(String name) throws BeansException {
+        return doGetBean(name, null);
     }
 
-    protected abstract BeanDefinition getBeanDefinition(String beanName) throws BeansException;
+    @Override
+    public Object getBean(String name, Object... args) throws BeansException {
+        return doGetBean(name, args);
+    }
 
-    protected abstract Object createBean(String beanName, BeanDefinition beanDefinition, Object[] args) throws BeansException;
+    @Override
+    public <T> T getBean(String name, Class<T> requiredType) throws BeansException {
+        return (T) getBean(name);
+    }
+
+    protected <T> T doGetBean(final String name, final Object[] args) {
+        Object bean = getSingleton(name);
+        if (bean != null) {
+            return (T) bean;
+        }
+
+        BeanDefinition beanDefinition = getBeanDefinition(name);
+        return (T) createBean(name, beanDefinition, args);
+    }
+
+    protected abstract BeanDefinition getBeanDefinition(String beanName);
+
+    protected abstract Object createBean(String beanName, BeanDefinition beanDefinition, Object[] args);
+
+    @Override
+    public void addBeanPostProcessor(BeanPostProcessor beanPostProcessor){
+        this.beanPostProcessors.remove(beanPostProcessor);
+        this.beanPostProcessors.add(beanPostProcessor);
+    }
+
+    /**
+     * Return the list of BeanPostProcessors that will get applied
+     * to beans created with this factory.
+     */
+    public List<BeanPostProcessor> getBeanPostProcessors() {
+        return this.beanPostProcessors;
+    }
 
 }

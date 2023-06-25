@@ -6,7 +6,7 @@ package com.jun.springframwork.beans;
  * @author: jun.luo
  * @create: 2023-06-12 16:34
  **/
-public class BeansException extends Exception{
+public class BeansException extends RuntimeException{
     public BeansException(String message){
         super(message);
     }
