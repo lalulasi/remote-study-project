@@ -1,4 +1,4 @@
-package com.jun.springframwork.beans;
+package com.jun.springframework.beans;
 
 import java.util.ArrayList;
 import java.util.List;

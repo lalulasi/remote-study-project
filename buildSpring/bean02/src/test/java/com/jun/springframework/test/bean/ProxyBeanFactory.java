@@ -1,6 +1,6 @@
 package com.jun.springframework.test.bean;
 
-import com.jun.springframwork.beans.factory.FactoryBean;
+import com.jun.springframework.beans.factory.FactoryBean;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;

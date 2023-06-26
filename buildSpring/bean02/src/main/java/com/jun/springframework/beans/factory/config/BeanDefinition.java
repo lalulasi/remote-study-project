@@ -1,6 +1,6 @@
-package com.jun.springframwork.beans.factory.config;
+package com.jun.springframework.beans.factory.config;
 
-import com.jun.springframwork.beans.PropertyValues;
+import com.jun.springframework.beans.PropertyValues;
 
 /**
  * @program: buildSpring

@@ -1,11 +1,11 @@
-package com.jun.springframwork.beans.factory.support;
+package com.jun.springframework.beans.factory.support;
 
-import com.jun.springframwork.beans.BeansException;
-import com.jun.springframwork.beans.factory.FactoryBean;
-import com.jun.springframwork.beans.factory.config.BeanDefinition;
-import com.jun.springframwork.beans.factory.config.BeanPostProcessor;
-import com.jun.springframwork.beans.factory.config.ConfigurableBeanFactory;
-import com.jun.springframwork.utils.ClassUtils;
+import com.jun.springframework.beans.BeansException;
+import com.jun.springframework.beans.factory.FactoryBean;
+import com.jun.springframework.beans.factory.config.BeanDefinition;
+import com.jun.springframework.beans.factory.config.BeanPostProcessor;
+import com.jun.springframework.beans.factory.config.ConfigurableBeanFactory;
+import com.jun.springframework.utils.ClassUtils;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,17 +1,17 @@
-package com.jun.springframwork.beans.factory.xml;
+package com.jun.springframework.beans.factory.xml;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.core.util.XmlUtil;
-import com.jun.springframwork.beans.BeansException;
-import com.jun.springframwork.beans.PropertyValue;
-import com.jun.springframwork.beans.PropertyValues;
-import com.jun.springframwork.beans.factory.config.BeanDefinition;
-import com.jun.springframwork.beans.factory.config.BeanReference;
-import com.jun.springframwork.beans.factory.support.AbstractBeanDefinitionReader;
-import com.jun.springframwork.beans.factory.support.BeanDefinitionRegistry;
-import com.jun.springframwork.core.io.Resource;
-import com.jun.springframwork.core.io.ResourceLoader;
+import com.jun.springframework.beans.BeansException;
+import com.jun.springframework.beans.PropertyValue;
+import com.jun.springframework.beans.PropertyValues;
+import com.jun.springframework.beans.factory.config.BeanDefinition;
+import com.jun.springframework.beans.factory.config.BeanReference;
+import com.jun.springframework.beans.factory.support.AbstractBeanDefinitionReader;
+import com.jun.springframework.beans.factory.support.BeanDefinitionRegistry;
+import com.jun.springframework.core.io.Resource;
+import com.jun.springframework.core.io.ResourceLoader;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;

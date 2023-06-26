@@ -1,6 +1,6 @@
-package com.jun.springframwork.beans.factory.config;
+package com.jun.springframework.beans.factory.config;
 
-import com.jun.springframwork.beans.factory.HierarchicalBeanFactory;
+import com.jun.springframework.beans.factory.HierarchicalBeanFactory;
 
 /**
  * @program: buildSpring

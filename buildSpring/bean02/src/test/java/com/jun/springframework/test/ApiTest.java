@@ -2,12 +2,12 @@ package com.jun.springframework.test;
 
 import com.jun.springframework.test.bean.UserDao;
 import com.jun.springframework.test.bean.UserService;
-import com.jun.springframwork.beans.BeansException;
-import com.jun.springframwork.beans.PropertyValue;
-import com.jun.springframwork.beans.PropertyValues;
-import com.jun.springframwork.beans.factory.config.BeanDefinition;
-import com.jun.springframwork.beans.factory.config.BeanReference;
-import com.jun.springframwork.beans.factory.support.DefaultListableBeanFactory;
+import com.jun.springframework.beans.BeansException;
+import com.jun.springframework.beans.PropertyValue;
+import com.jun.springframework.beans.PropertyValues;
+import com.jun.springframework.beans.factory.config.BeanDefinition;
+import com.jun.springframework.beans.factory.config.BeanReference;
+import com.jun.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.junit.Test;
 
 /**

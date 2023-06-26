@@ -1,7 +1,7 @@
-package com.jun.springframwork.core.io;
+package com.jun.springframework.core.io;
 
 import cn.hutool.core.lang.Assert;
-import com.jun.springframwork.utils.ClassUtils;
+import com.jun.springframework.utils.ClassUtils;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

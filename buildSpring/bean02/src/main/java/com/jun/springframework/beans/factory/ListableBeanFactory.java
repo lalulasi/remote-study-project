@@ -1,6 +1,6 @@
-package com.jun.springframwork.beans.factory;
+package com.jun.springframework.beans.factory;
 
-import com.jun.springframwork.beans.BeansException;
+import com.jun.springframework.beans.BeansException;
 
 import java.util.Map;
 
@@ -10,7 +10,7 @@ import java.util.Map;
  * @author: jun.luo
  * @create: 2023-06-20 16:22
  **/
-public interface ListableBeanFactory extends BeanFactory{
+public interface ListableBeanFactory extends BeanFactory {
     /**
      * 按照类型返回 Bean 实例
      * @param type

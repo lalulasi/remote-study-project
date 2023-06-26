@@ -1,8 +1,8 @@
-package com.jun.springframwork.context.support;
+package com.jun.springframework.context.support;
 
-import com.jun.springframwork.beans.BeansException;
-import com.jun.springframwork.beans.factory.ConfigurableListableBeanFactory;
-import com.jun.springframwork.beans.factory.support.DefaultListableBeanFactory;
+import com.jun.springframework.beans.BeansException;
+import com.jun.springframework.beans.factory.ConfigurableListableBeanFactory;
+import com.jun.springframework.beans.factory.support.DefaultListableBeanFactory;
 
 /**
  * @program: buildSpring

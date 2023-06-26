@@ -1,4 +1,4 @@
-package com.jun.springframwork.beans;
+package com.jun.springframework.beans;
 
 /**
  * @program: buildSpring

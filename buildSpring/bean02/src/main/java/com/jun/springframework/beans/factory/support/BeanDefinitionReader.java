@@ -1,8 +1,8 @@
-package com.jun.springframwork.beans.factory.support;
+package com.jun.springframework.beans.factory.support;
 
-import com.jun.springframwork.beans.BeansException;
-import com.jun.springframwork.core.io.Resource;
-import com.jun.springframwork.core.io.ResourceLoader;
+import com.jun.springframework.beans.BeansException;
+import com.jun.springframework.core.io.Resource;
+import com.jun.springframework.core.io.ResourceLoader;
 
 /**
  * @program: buildSpring

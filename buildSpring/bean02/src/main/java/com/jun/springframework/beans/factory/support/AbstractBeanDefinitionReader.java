@@ -1,7 +1,7 @@
-package com.jun.springframwork.beans.factory.support;
+package com.jun.springframework.beans.factory.support;
 
-import com.jun.springframwork.core.io.DefaultResourceLoader;
-import com.jun.springframwork.core.io.ResourceLoader;
+import com.jun.springframework.core.io.DefaultResourceLoader;
+import com.jun.springframework.core.io.ResourceLoader;
 
 /**
  * @program: buildSpring

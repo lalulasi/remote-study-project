@@ -1,4 +1,4 @@
-package com.jun.springframwork.beans.factory.config;
+package com.jun.springframework.beans.factory.config;
 
 /**
  * @program: buildSpring

@@ -1,15 +1,15 @@
-package com.jun.springframwork.beans.factory.support;
+package com.jun.springframework.beans.factory.support;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.util.StrUtil;
-import com.jun.springframwork.beans.BeansException;
-import com.jun.springframwork.beans.PropertyValue;
-import com.jun.springframwork.beans.PropertyValues;
-import com.jun.springframwork.beans.factory.*;
-import com.jun.springframwork.beans.factory.config.AutowireCapableBeanFactory;
-import com.jun.springframwork.beans.factory.config.BeanDefinition;
-import com.jun.springframwork.beans.factory.config.BeanPostProcessor;
-import com.jun.springframwork.beans.factory.config.BeanReference;
+import com.jun.springframework.beans.BeansException;
+import com.jun.springframework.beans.PropertyValue;
+import com.jun.springframework.beans.PropertyValues;
+import com.jun.springframework.beans.factory.*;
+import com.jun.springframework.beans.factory.config.AutowireCapableBeanFactory;
+import com.jun.springframework.beans.factory.config.BeanDefinition;
+import com.jun.springframework.beans.factory.config.BeanPostProcessor;
+import com.jun.springframework.beans.factory.config.BeanReference;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 

@@ -1,7 +1,6 @@
-package com.jun.springframwork.context.support;
-
-import com.jun.springframwork.beans.factory.support.DefaultListableBeanFactory;
-import com.jun.springframwork.beans.factory.xml.XmlBeanDefinitionReader;
+package com.jun.springframework.context.support;
+import com.jun.springframework.beans.factory.support.DefaultListableBeanFactory;
+import com.jun.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 
 /**
  * @program: buildSpring

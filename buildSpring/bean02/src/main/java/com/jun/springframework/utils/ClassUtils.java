@@ -1,4 +1,4 @@
-package com.jun.springframwork.utils;
+package com.jun.springframework.utils;
 
 /**
  * @program: buildSpring

@@ -1,11 +1,11 @@
-package test;
+package com.jun.springframework.test;
 
 import cn.hutool.core.io.IoUtil;
+import com.jun.springframework.beans.BeansException;
+import com.jun.springframework.context.support.ClassPathXmlApplicationContext;
+import com.jun.springframework.core.io.DefaultResourceLoader;
+import com.jun.springframework.core.io.Resource;
 import com.jun.springframework.test.bean.UserService;
-import com.jun.springframwork.beans.BeansException;
-import com.jun.springframwork.context.support.ClassPathXmlApplicationContext;
-import com.jun.springframwork.core.io.DefaultResourceLoader;
-import com.jun.springframwork.core.io.Resource;
 import org.junit.Before;
 import org.junit.Test;
 import org.openjdk.jol.info.ClassLayout;

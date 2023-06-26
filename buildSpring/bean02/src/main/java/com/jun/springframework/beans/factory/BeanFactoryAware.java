@@ -1,6 +1,6 @@
-package com.jun.springframwork.beans.factory;
+package com.jun.springframework.beans.factory;
 
-import com.jun.springframwork.beans.BeansException;
+import com.jun.springframework.beans.BeansException;
 
 /**
  * @program: buildSpring
