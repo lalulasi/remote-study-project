@@ -1,7 +1,8 @@
 package com.jun.springframework.context;
 
-import com.jun.springframework.beans.BeansException;
+import com.jun.springframework.beans.factory.HierarchicalBeanFactory;
 import com.jun.springframework.beans.factory.ListableBeanFactory;
+import com.jun.springframework.core.io.ResourceLoader;
 
 /**
  * @program: buildSpring
@@ -13,6 +14,6 @@ import com.jun.springframework.beans.factory.ListableBeanFactory;
 也就继承了关于 BeanFactory 方法，比如一些 getBean 的方法。另外 ApplicationContext 本身是 Central 接口，
 但目前还不需要添加一些获取ID和父类上下文，所以暂时没有接口方法的定义。
  */
-public interface ApplicationContext extends ListableBeanFactory {
+public interface ApplicationContext extends ListableBeanFactory, HierarchicalBeanFactory, ResourceLoader, ApplicationEventPublisher {
 
 }
