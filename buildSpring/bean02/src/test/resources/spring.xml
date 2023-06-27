@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans>
 
-    <!--
     <bean id="userService" class="com.jun.springframework.test.bean.UserService">
         <property name="uId" value="10001"/>
         <property name="company" value="腾讯"/>
@@ -10,7 +9,7 @@
     </bean>
 
     <bean id="proxyUserDao" class="com.jun.springframework.test.bean.ProxyBeanFactory"/>
-    -->
+
     <bean class="com.jun.springframework.test.event.ContextRefreshedEventListener"/>
 
     <bean class="com.jun.springframework.test.event.CustomEventListener"/>
