@@ -5,6 +5,7 @@ import com.jun.springframework.aop.TargetSource;
 import com.jun.springframework.aop.aspectj.AspectJExpressionPointcut;
 import com.jun.springframework.aop.framework.Cglib2AopProxy;
 import com.jun.springframework.aop.framework.JdkDynamicAopProxy;
+import com.jun.springframework.context.support.ClassPathXmlApplicationContext;
 import com.jun.springframework.test.bean.IUserService;
 import com.jun.springframework.test.bean.UserService;
 import com.jun.springframework.test.bean.UserServiceInterceptor;
@@ -48,5 +49,12 @@ public class AopTest {
         IUserService proxy_cglib = (IUserService) new Cglib2AopProxy(advisedSupport).getProxy();
         // 测试调用
         System.out.println("测试结果：" + proxy_cglib.register("花花"));
+    }
+
+    @Test
+    public void test_spring_aop(){
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:spring.xml");
+        IUserService userService = context.getBean("userService", IUserService.class);
+        System.out.println(userService.queryUserInfo());
     }
 }

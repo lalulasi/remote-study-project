@@ -15,12 +15,22 @@ MethodInterceptor，是一个具体拦截方法实现类，由用户自己实现
 MethodMatcher，是一个匹配方法的操作，这个对象由 AspectJExpressionPointcut 提供服务。
  */
 public class AdvisedSupport {
+    // ProxyConfig
+    private boolean proxyTargetClass = false;
     // 被代理的目标对象
     private TargetSource targetSource;
     // 方法拦截器
     private MethodInterceptor methodInterceptor;
     // 方法匹配器(检查目标方法是否符合通知条件)
     private MethodMatcher methodMatcher;
+
+    public boolean isProxyTargetClass() {
+        return proxyTargetClass;
+    }
+
+    public void setProxyTargetClass(boolean proxyTargetClass) {
+        this.proxyTargetClass = proxyTargetClass;
+    }
 
     public TargetSource getTargetSource() {
         return targetSource;
