@@ -22,7 +22,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>4.13.2</version>
         </dependency>
         <dependency>
             <groupId>cglib</groupId>
@@ -51,6 +51,12 @@
             <groupId>org.openjdk.jol</groupId>
             <artifactId>jol-cli</artifactId>
             <version>0.14</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
+        <dependency>
+            <groupId>org.dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>2.1.4</version>
         </dependency>
     </dependencies>
 </project>

@@ -120,6 +120,7 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
     private void applyPropertyValues(String beanName, Object bean, BeanDefinition beanDefinition) {
         try {
             PropertyValues propertyValues = beanDefinition.getPropertyValues();
+            if(propertyValues == null) return;
             for (PropertyValue propertyValue : propertyValues.getPropertyValues()) {
 
                 String name = propertyValue.getName();
@@ -134,6 +135,7 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
                 BeanUtil.setFieldValue(bean, name, value);
             }
         } catch (Exception e) {
+            e.printStackTrace();
             throw new BeansException("Error setting property values：" + beanName);
         }
     }
