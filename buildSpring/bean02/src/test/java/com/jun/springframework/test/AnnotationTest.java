@@ -24,4 +24,11 @@ public class AnnotationTest {
         IUserService studentService = applicationContext.getBean("studentService", IUserService.class);
         System.out.println("测试结果：" + studentService.queryUserInfo());
     }
+
+    @Test
+    public void test_anno_property(){
+        ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring-scan.xml");
+        IUserService userService = applicationContext.getBean("userService", IUserService.class);
+        System.out.println(userService.queryUserInfo());
+    }
 }

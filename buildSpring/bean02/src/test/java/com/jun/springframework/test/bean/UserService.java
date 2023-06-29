@@ -1,5 +1,9 @@
 package com.jun.springframework.test.bean;
 
+import com.jun.springframework.beans.factory.annotation.Autowired;
+import com.jun.springframework.beans.factory.annotation.Value;
+import com.jun.springframework.stereotype.Component;
+
 import java.util.Random;
 
 /**
@@ -8,7 +12,14 @@ import java.util.Random;
  * @author: jun.luo
  * @create: 2023-06-12 16:36
  **/
+@Component("userService")
 public class UserService implements IUserService{
+
+    @Value("${token}")
+    private String token;
+
+    @Autowired
+    private UserDao userDao;
 
     @Override
     public String queryUserInfo() {
@@ -17,7 +28,7 @@ public class UserService implements IUserService{
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        return "小傅哥，100001，深圳";
+        return userDao.queryUserName("10001") + "，" + token;
     }
 
     @Override
