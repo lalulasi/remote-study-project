@@ -22,8 +22,8 @@ import java.lang.reflect.Method;
 另外非 Singleton 类型的 Bean 不需要执行销毁方法。
  */
 public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFactory implements AutowireCapableBeanFactory {
-    //private InstantiationStrategy instantiationStrategy = new CglibSubclassingInstantiationStrategy();
-    private InstantiationStrategy instantiationStrategy = new SimpleInstantiationStrategy();
+    private InstantiationStrategy instantiationStrategy = new CglibSubclassingInstantiationStrategy();
+    //private InstantiationStrategy instantiationStrategy = new SimpleInstantiationStrategy();
 
     @Override
     protected Object createBean(String beanName, BeanDefinition beanDefinition, Object[] args) throws BeansException {

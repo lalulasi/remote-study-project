@@ -31,4 +31,11 @@ public class AnnotationTest {
         IUserService userService = applicationContext.getBean("userService", IUserService.class);
         System.out.println(userService.queryUserInfo());
     }
+
+    @Test
+    public void test_proxyObj_annotation_property(){
+        ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring-scan.xml");
+        IUserService userService = applicationContext.getBean("userService", IUserService.class);
+        System.out.println(userService.queryUserInfo());
+    }
 }

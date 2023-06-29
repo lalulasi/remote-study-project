@@ -1,5 +1,9 @@
 package com.jun.springframework.aop;
 
+import com.jun.springframework.utils.ClassUtils;
+
+import java.util.Arrays;
+
 /**
  * @program: buildSpring
  * @description: 被代理的目标对象
@@ -21,7 +25,10 @@ public class TargetSource {
      * @return the type of targets returned by this {@link TargetSource}
      */
     public Class<?>[] getTargetClass(){
-        return this.target.getClass().getInterfaces();
+        Class<?> clazz = this.target.getClass();
+        clazz = ClassUtils.isCglibProxyClass(clazz) ? clazz.getSuperclass() : clazz;
+        System.out.println(Arrays.toString(clazz.getInterfaces()));
+        return clazz.getInterfaces();
     }
 
     /**
