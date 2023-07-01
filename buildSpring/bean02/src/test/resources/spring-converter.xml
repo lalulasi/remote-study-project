@@ -8,10 +8,9 @@
         <property name="registryTime" value="2023-06-30"/>
     </bean>
 
-    <bean id="converters" class="com.jun.springframework.test.converter.ConvertersFactoryBean"/>
-
     <bean id="conversionService" class="com.jun.springframework.context.support.ConversionServiceFactoryBean">
         <property name="converters" ref="converters"/>
     </bean>
 
+    <bean id="converters" class="com.jun.springframework.test.converter.ConvertersFactoryBean"/>
 </beans>
