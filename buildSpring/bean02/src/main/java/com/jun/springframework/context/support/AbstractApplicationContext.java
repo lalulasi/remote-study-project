@@ -120,6 +120,10 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader i
         getBeanFactory().destroySingletons();
     }
 
+    @Override
+    public boolean containsBean(String name) {
+        return getBeanFactory().containsBean(name);
+    }
 
     private void initApplicationEventMulticaster(){
         ConfigurableListableBeanFactory beanFactory = getBeanFactory();
