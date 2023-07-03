@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jun.mybatis.mappers.UserMapper">
+    <insert id="insertUser">
+        insert into tbl_users(name, uid, card_id) values ('张三', '2212341','2212341');
+    </insert>
+    <update id="updateUser">
+        update tbl_users set name='222' where id = 4;
+    </update>
+    <delete id="deleteUser">
+        delete from tbl_users where id = 4;
+    </delete>
+    <select id="getUserById" resultType="com.jun.mybatis.entity.User">
+        select * from tbl_users where id = 6;
+    </select>
+    <select id="findAll" resultType="com.jun.mybatis.entity.User">
+        select * from tbl_users
+    </select>
+
+</mapper>
