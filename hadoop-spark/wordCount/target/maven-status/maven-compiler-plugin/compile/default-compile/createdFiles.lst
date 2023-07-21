@@ -1,0 +1,3 @@
+com\jun\hadoop\wordcount\MyWordCount$MyReducer.class
+com\jun\hadoop\wordcount\MyWordCount.class
+com\jun\hadoop\wordcount\MyWordCount$MyMapper.class
